@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erkenne den Song</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('yeah kunzi.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .video-link {
+            display: block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .video-link:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Erkenne den Song
+    </header>
+    <div class="container">
+        <h2>Herzlichen Glückwunsch zum Geburtstag!</h2>
+        <p>Klicke auf die Links unten, um die Videos anzusehen und den Song zu erkennen:</p>
+        <a href="https://drive.google.com/uc?export=download&id=1uAJ0q2NLQ8z-xavuWgPjkJ88EoEByKky" class="video-link" target="_blank">Video 1 ansehen</a>
+        <a href="https://drive.google.com/uc?export=download&id=1Ml8RLaNBrExv0hnOxniH0YNuRu7TiWiS" class="video-link" target="_blank">Video 2 ansehen</a>
+        <a href="https://drive.google.com/uc?export=download&id=1JXQmKwJ9HZRq-FvC9XfPdRE1lQayL49u" class="video-link" target="_blank">Video 3 ansehen</a>
+    </div>
+    <div class="footer">
+        Viel Spaß beim Anschauen!
+    </div>
+</body>
+</html>
